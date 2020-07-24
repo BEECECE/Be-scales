@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,  shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css'>
+    <link rel="stylesheet" href="img/logo.png">
+    <link rel="shortcut icon" type="image.jpg" href="img/favicon.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Escales</title>
+</head>
+<body>
+  <header class="header">
+        <!--  <video autoplay muted loop id="myVideo">
+            <source src="vid/V1.mp4" type="video/mp4">
+        </video> -->
+
+    <div class="container">
+      <div class="logo">
+        <a href="#"><img src="img/elogo.png" alt="Escales" class="logo"></a>
+      </div>
+    
+      <div class="navbar">
+        <div class="icon-bar" onclick="Show()">
+          <i></i>
+          <i></i>
+          <i></i>
+        </div>
+            
+        <ul id="nav-lists">
+          <li class="close"><span onclick="Hide()">×</span></li>
+          <li><a href="#">Accueil</a></li>
+          <li><a href="#">Projet</a></li>
+          <li><a href="#">Partenaires</a></li>
+          <li><a href="#portfolio">Porffolio</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+        <!-- Overlay TITLE  -->
+    <div class="text-box">
+      <h1 class="heading-primary">
+        <span class="heading-primary-main">Escales</span>
+        <span class="heading-primary-sub">Partageons ensemble la passion du sport</span>
+      </h1>
+
+      <a href="#" class="btn btn-white" title="Kalimera">Bienvenue</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- PORTFOLIO GALLERY GRID  -->
+    <div class="container" id="portfolio">
+       <div class="row">
+          <div class="colomn">
+            <div class="card">
+              <div class="image">
+                <img src="img/2délos.jpg" alt="Délos">  
+              </div>
+              <div class="content">
+                <h1>Délos</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eaque, sequi natus quasi illum non similique harum aperiam reiciendis ut.</p>
+                <h2>Alexandre L.</h2>
+                <button class="btn-1">Clic</button>  
+              </div>
+            </div> 
+          </div>
+
+          <div class="column">
+            <div class="card">
+              <div class="image">
+                <img src="img/2délos.jpg" alt="Délos">  
+              </div>
+              <div class="content">
+                <h1>Délos</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eaque, sequi natus quasi illum non similique harum aperiam reiciendis ut.</p>
+                <h2>Alexandre L.</h2>
+                <button class="btn-1">Clic</button>  
+              </div>
+            </div> 
+          </div>
+
+          <div class="column">
+            <div class="card">
+              <div class="image">
+                <img src="img/2délos.jpg" alt="Délos">  
+              </div>
+              <div class="content">
+                <h1>Délos</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eaque, sequi natus quasi illum non similique harum aperiam reiciendis ut.</p>
+                <h2>Alexandre L.</h2>
+                <button class="btn-1">Clic</button>  
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card">
+              <div class="image">
+                <img src="img/2délos.jpg" alt="Délos">  
+              </div>
+              <div class="content">
+                <h1>Délos</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eaque, sequi natus quasi illum non similique harum aperiam reiciendis ut.</p>
+                <h2>Alexandre L.</h2>
+                <button class="btn-1">Clic</button>  
+              </div>
+            </div> 
+          </div>
+        </div> 
+    </div>
+        
+
+  </main>
+    
+    <script>
+        var navList = document.getElementById("nav-lists");
+        function Show() {
+        navList.classList.add("_Menus-show");
+        }
+        
+        function Hide(){
+        navList.classList.remove("_Menus-show");
+        }
+    </script>
+      
+</body>
+</html>
